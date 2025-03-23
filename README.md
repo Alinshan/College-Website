@@ -27,13 +27,13 @@ Composer (if using PHP dependencies)
 git clone https://github.com/Alinshan/College-Website.git
 cd College-Website
 ```
-2.Move to Server Directory
+# 2.Move to Server Directory
 
 If using XAMPP, move the project folder to:
 
 C:\xampp\htdocs\
 
-3.Database Setup
+# 3.Database Setup
 
 Start Apache & MySQL in XAMPP.
 
