@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goverment Polytechnic College Mananthavady</title>
+    <link rel="icon" href="Images/logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/logo2.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="websites.html">WEBSITES</a></li>
+            <li><a href="https://nss.gov.in/nss-directories-views?field_state_ut_tid=2442">NSS UNIT</a></li>
+            <li><a href="https://www.sbte.kerala.gov.in/public/sr/instruction">SBTE Student Login</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificates and online Programs </h1>
+    </section>
+
+    <!-- ----------blog post page---------------- -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="Images/certificate.jpg" alt="" />
+          <h1>About Our Certificate Programs</h1>
+          <p>
+            Government Polytechnic College, Mananthavady, offers a range of certificate programs in various engineering disciplines. These programs are designed to provide students with specialized skills and knowledge in their chosen field, enhancing their career prospects and employability. The certificate programs are offered in areas such as Computer-Aided Design (CAD), Computer Hardware and Networking, and Electrical and Electronics.
+
+            <br />
+            <br />
+            The certificate programs at the US Government Polytechnic College, Mananthavady, are developed in consultation with industry experts and are tailored to meet the needs of the job market. The programs are delivered by experienced faculty members who provide hands-on training and mentorship to students. The college also provides placement assistance to students who complete the certificate programs, helping them to secure employment in their chosen field.
+
+            <br />
+            <br />
+            Some of the certificate programs offered by the US Government Polytechnic College, Mananthavady, include:<br/>
+
+            - Certificate in Computer-Aided Design (CAD)<br/>
+            - Certificate in Computer Hardware and Networking<br/>
+            - Certificate in Electrical and Electronics<br/>
+            - Certificate in Plumbing and Sanitation<br/>
+            - Certificate in Refrigeration and Air Conditioning<br/>
+
+            <br />
+            <br />
+          </p>
+
+         
+</div>
+
+<script>
+document.getElementById('comment-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Collect form data
+    const formData = new FormData(this);
+
+    // Send form data using AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'form_handler.php', true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                alert('Comment posted successfully!');
+                // You can update the UI as needed here
+            } else {
+                alert('Error posting comment.');
+            }
+        }
+    };
+    xhr.send(formData);
+});
+</script>
+
+        </div>
+        <div class="blog-right">
+          <h3>Course Categories</h3>
+          <div>
+            <span>Computer Engineering</span>
+            <span>60</span>
+          </div>
+          <div>
+            <span>Civil Engineering</span>
+            <span>60</span>
+          </div>
+          <div>
+            <span>Mechanical Engineering</span>
+            <span>60</span>
+          </div>
+          <div>
+            <span>Electrical Engineering</span>
+            <span>60</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "We are passionate developers dedicated to crafting innovative
+          solutions that merge technology with creativity. <br />Our mission is
+          to build seamless experiences that redefine possibilities."
+        </p>
+      </div>
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a
+          href="https://www.instagram.com/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/"
+          class="fa fa-linkedin"
+        ></a>
+      </div>
+      <p>Made with  by GPCM</p>
+      <p>© 2025 GPCM Goverment</p>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

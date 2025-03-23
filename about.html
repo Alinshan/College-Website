@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+
+    .w3-button{
+    border-radius: 10%;
+    
+    }
+    div.my div{
+    float:left;
+    }
+    
+    .indiv{
+      padding-left: 5%;
+    }
+    #bg{
+      padding-top: 5%;
+    }
+    #bg2{
+      padding-top: 4%;
+    }
+    </style>
+  <head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goverment Polytechnic College Mananthavady</title>
+    <link rel="icon" href="Images/logo2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="home.html"><img src="Images/logo2.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="websites.html">WEBSITES</a></li>
+            <li><a href="https://nss.gov.in/nss-directories-views?field_state_ut_tid=2442">NSS UNIT</a></li>
+            <li><a href="https://www.sbte.kerala.gov.in/public/sr/instruction">SBTE Student Login</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- -----------------about us---------------------- -->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <img src="Images/about_us2.jpg" alt="" />
+        </div>
+        <div class="about-col">
+                <h1 style="text-align: center;">  Administration  </h1>
+          <p>
+          The college is Governed by the Directorate of Technical Education, <br>
+          Higher Education Department, Govt. of Kerala
+          The administrative wing of the college consists of Academic,<br>
+          Establishment, Examination, Accounts, Bills, Purchase sections.<br>
+          The office follows the Kerala Government service rules and procedures
+
+          
+          <div class="indiv">
+            <p><a href="https://sitttrkerala.ac.in/syllabus/rev2021/rules-rev2021.pdf"><button class="w3-button w3-green">RULES & REGULATIONS</button></a>
+            <a href="https://www.polyadmission.org/index.php?r=site%2Fabout"><button class="w3-button w3-light-green">ADMISSION</button></a>
+            <a href="fee.html"><button class="w3-button w3-lime">FEE STRUCTURE</button></a>
+
+        </p>
+      </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      <h1>About Us</h1>
+      <div class="footer-intro">
+        <p>
+          "We are passionate developers dedicated to crafting innovative
+          solutions that merge technology with creativity. <br />Our mission is
+          to build seamless experiences that redefine possibilities."
+        </p>
+      </div>
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/"
+          class="fa fa-facebook"
+        ></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a
+          href="https://www.instagram.com/"
+          class="fa fa-instagram"
+        ></a>
+        <a
+          href="https://www.linkedin.com/"
+          class="fa fa-linkedin"
+        ></a>
+      </div>
+      <p>Made with by GPCM</p>
+      <p>© 2025 GPCM MANANTHAVADY</p>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
