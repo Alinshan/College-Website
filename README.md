@@ -2,14 +2,16 @@
 
 A secure admin login system for managing lecture details by department, including adding and deleting lectures.
 
-🚀 Features
-Secure Admin Authentication
+# 🚀 Features
 
-Department-wise Lecture Management
+-Secure Admin Authentication
 
-Role-based Access Control
+-Department-wise Lecture Management
 
-🛠️ Installation Guide
+-Role-based Access Control
+
+# 🛠️ Installation Guide
+
 Prerequisites
 Ensure you have the following installed:
 
